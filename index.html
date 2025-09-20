@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png.png" class="logo">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>CSE Undergrad.</p>
+                <h1>Hi, I'm <span>Sagarika</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.png.jpg" class="profile-pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I’m Sagarika, a Computer Science and Engineering undergraduate.
+                    I love exploring new technologies and turning ideas into projects.
+                    My interests include web development, coding challenges, and creative problem-solving.
+                    I enjoy building applications that make an impact and learning along the way.
+                    Curiosity drives me to keep improving and expanding my skills in tech.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming:</span><br>C, Python, Java</li>
+                            <li><span>Web Development:</span><br>HTML, CSS, JavaScript</li>
+                            <li><span>Database Basics:</span><br>MySQL</li>
+                            <li><span>Problem-Solving & Algorithms</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Mini Projects:</span><br>Built personal projects like simple websites or apps.</li>
+                            <li><span>Academic Work:</span><br>Completed coding assignments and labs in CSE.</li>
+                            <li><span>Team Projects:</span><br>Collaborated with classmates on projects and presentations.</li>
+                            <li><span>Self-Learning:</span><br>Explored online courses or tutorials on web development/DSA.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------services----------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development:</h2>
+                <P>Building simple and responsive websites using HTML, CSS, and JavaScript.</P>
+                <a href="#">Learn more</a>
+            </div>
+             <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Frontend Design:</h2>
+                <P>Creating clean and user-friendly layouts.</P>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-book"></i>
+                <h2>Learning & Research:</h2>
+                <P>Exploring new technologies and applying them in projects.</P>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------projects---------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div class="projects">
+                <img src="images/work1.png.jpg">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal website to showcase my skills and projects.HTML, CSS, JavaScript.
+                    Responsive design and easy navigation</p>
+                    <a herf="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="images/work2.png.jpg">
+                <div class="layer">
+                    <h3>Library Management System</h3>
+                    <p>Software to manage books, students, and records.
+                    Python, MySQL. 
+                    Implemented book issue/return and user authentication</p>
+                    <a herf="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="projects">
+                <img src="images/work3.png.jpg">
+                <div class="layer">
+                    <h3>Chat Application (Mini Project)</h3>
+                    <p>A simple real-time messaging app.
+                       Python/Java Programming.
+                       Supports multiple users</p>
+                    <a herf="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-------------contact------------------------>
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dasaakriti@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9612286121</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <a href="images/my.cv.pdf.pdf"download class="btn btn2" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Messege" rows="6" placeholder="Your Messege"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+</body>
+</html>
